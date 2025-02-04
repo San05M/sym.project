@@ -1,12 +1,12 @@
 <!DOCTYPE html>
+
+// TODO: falta cambiar 
 <html lang="en">
 <!--start:Intro -->
-<?php require_once __DIR__ . '/intro.part.php'; ?>
 <!--end:Intro -->
 
 <body>
     <!--start: Navigation -->
-    <?php require_once __DIR__ . '/navigation.part.php'; ?>
     <!--end:Navigation -->
     <main role="main">
         <section class="pt-4">
@@ -15,10 +15,10 @@
                     <div class="col-md-7">
                         <div class="project-sidebar">
                             <!-- Place your project images here -->
-                            <figure><img src="/public/assets/img/index/photo-1494475673543-6a6a27143fc8.jpg" alt="" class="img-fluid"></figure>
-                            <figure><img src="/public/assets/img/index/photo-1558118720-fa5cdebe6b3a.jpg" alt="" class="img-fluid"></figure>
-                            <figure><img src="/public/assets/img/index/photo-1558180702-95f1c3ae2ca3.jpg" alt="" class="img-fluid"></figure>
-                            <figure><img src="/public/assets/img/index/photo-1557941760-987c3f403d5a.jpg" alt="" class="img-fluid"> </figure>
+                            <figure><img src="{{ asset('assets/img/index/photo-1494475673543-6a6a27143fc8.jpg') }}" alt="" class="img-fluid"></figure>
+                            <figure><img src="{{ asset('assets/img/index/photo-1558118720-fa5cdebe6b3a.jpg') }}" alt="" class="img-fluid"></figure>
+                            <figure><img src="{{ asset('assets/img/index/photo-1558180702-95f1c3ae2ca3.jpg') }}" alt="" class="img-fluid"></figure>
+                            <figure><img src="{{ asset('assets/img/index/photo-1557941760-987c3f403d5a.jpg') }}" alt="" class="img-fluid"> </figure>
                         </div>
                     </div>
                     <!-- end:col -->
@@ -48,7 +48,6 @@
         </section>
     </main>
 <!--start:footer-->
-<?php require_once __DIR__ . '/footer.part.php'; ?>
 <!--end:footer-->
 </body>
 

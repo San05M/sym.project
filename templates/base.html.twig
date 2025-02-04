@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="description" content="Free minimal portfolio web site template,minmal portfolio,porfolio,bootstrap template,html template,photography "/>
+	<title>Home - Free Minimal portfolio template.Art Studio template.</title>
+	{% block stylesheets %}
+		<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="{{asset('assets/css/main.min.css')}}">
+		<link rel="stylesheet" href="{{asset('assets/css/rtl.css')}}">
+	{% endblock %}
+
+</head>
+<body>
+	{% block body %}
+
+</body>
+<body id="page-top">
+
+	{% block navegacion %}
+		{% include 'navegacion.part.html.twig' %}
+	{% endblock %}
+
+	{% block principal %}
+		<header>
+			<h1>La web se encuentra en mantenimiento en este momento. Disculpe las molestias.</h1>
+		</header>
+		<main>
+			<p>Página no disponible momentáneamente.
+			</p>
+		</main>
+		<footer>
+			<p>
+				<small>Todos los derechos reservados</small>
+			</p>
+		</footer>
+	{% endblock %}
+	
+	{% block footer %}
+		<footer class="position-relative">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-lg-auto mt-4">
+						<p class="mb-4">sharebootstrap.com</p>
+					</div>
+					<div class="col-lg-3 mt-4 ml-auto">
+						<p>dayy GmbH
+							<br>
+							sarajevska. 32
+							<br>
+							71000 sarajevo
+							<br>
+							fbih
+						</p>
+						<a href="mailto:hi@yourdomain.com">
+							<span style="text-decoration: underline;">hi@sharebootstrap.com</span>
+						</a>
+					</div>
+					<div class="col-lg-3 mt-4 ml-auto">
+						<ul class="list-unstyled footer-link">
+							<li>
+								<a href="#">instagram</a>
+							</li>
+							<li>
+								<a href="#">facebook</a>
+							</li>
+							<li>
+								<a href="#">twitter</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-lg-auto ml-lg-auto mt-4">
+						<ul class="list-unstyled footer-link">
+							<li>
+								<a href="#">instagram</a>
+							</li>
+							<li>
+								<a href="#">facebook</a>
+							</li>
+							<li>
+								<a href="#">twitter</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!--/.row-->
+			</div>
+			<!--/.container-->
+		</footer>
+		<!-- build:js -->
+	{% endblock %}
+	{% block javascripts %}
+		<script src="{{ asset('assets/js/main.min.js')}}"></script>
+
+		<!-- endbuild -->
+	{% endblock %}
+</body></html>

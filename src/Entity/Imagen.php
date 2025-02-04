@@ -9,10 +9,10 @@ class Imagen implements IEntity
     private $descripcion = "";
     private $categoria = "";
 
-    const RUTA_IMAGENES_PORTFOLIO = '/public/images/index/portfolio/';
-    const RUTA_IMAGENES_GALERIA = '/public/images/index/gallery/';
-    const RUTA_IMAGENES_CLIENTES = '/public/images/clients/';
-    const RUTA_IMAGENES_SUBIDAS = '/public/assets/img/galeria/';
+    const RUTA_IMAGENES_PORTFOLIO = 'images/index/portfolio/';
+    const RUTA_IMAGENES_GALERIA = 'images/index/gallery/';
+    const RUTA_IMAGENES_CLIENTES = 'images/clients/';
+    const RUTA_IMAGENES_SUBIDAS = 'assets/img/galeria/';
 
     public function __construct($titulo = "", $descripcion = "", $categoria = 1)
     {
